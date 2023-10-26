@@ -8,9 +8,25 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="https://use.typekit.net/zig4pdr.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<section class="grid place-items-center min-h-screen bg-gradient-to-r from-red-500 to-orange-500 text-white">
+			<div class="container max-w-2xl">
+				<h1 class="font-display text-7xl text-center">Minimum Viable Library</h1>
+				<p class="text-center text-xl py-10">Let's see how weighty each of the popular JS libraries are.</p>
+				<p class="text-center text-xl">Each library will load in a full window height container, and load sequentially using Astro's island architecture.</p>
+			</div>
+		</section>
 	</body>
 </html>
+
+<style>
+	section h1, p {
+		text-shadow: 0 2px 8px #b91c1c;
+	}
+</style>
